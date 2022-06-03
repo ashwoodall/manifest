@@ -3029,6 +3029,7 @@ __metadata:
     "@radix-ui/react-separator": ^0.1.4
     "@radix-ui/react-slot": ^0.1.2
     "@radix-ui/react-switch": ^0.1.5
+    "@radix-ui/react-tooltip": ^0.1.7
     "@radix-ui/react-use-controllable-state": ^0.1.0
     "@radix-ui/react-visually-hidden": ^0.1.4
     "@stitches/react": ^1.2.8
@@ -3287,12 +3288,34 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@radix-ui/popper@npm:0.1.0":
+  version: 0.1.0
+  resolution: "@radix-ui/popper@npm:0.1.0"
+  dependencies:
+    "@babel/runtime": ^7.13.10
+    csstype: ^3.0.4
+  checksum: f362a9fb8ed8db7ae9d697c9847d7b709d77e8630964c4bf6de458cac14822bab9c0e35aa3f2ea600a556cae49d025941a8bcee689b8a5fa18f8a0084576640c
+  languageName: node
+  linkType: hard
+
 "@radix-ui/primitive@npm:0.1.0":
   version: 0.1.0
   resolution: "@radix-ui/primitive@npm:0.1.0"
   dependencies:
     "@babel/runtime": ^7.13.10
   checksum: 5f721bcfebb2482fc2d034d2782219f4b1035977d3a1bd854719ff07c82fb545083ff1247a987ea0218109c5801375724f60910b0c71f7bb78ea0ab21b2bcb26
+  languageName: node
+  linkType: hard
+
+"@radix-ui/react-arrow@npm:0.1.4":
+  version: 0.1.4
+  resolution: "@radix-ui/react-arrow@npm:0.1.4"
+  dependencies:
+    "@babel/runtime": ^7.13.10
+    "@radix-ui/react-primitive": 0.1.4
+  peerDependencies:
+    react: ^16.8 || ^17.0
+  checksum: af09d09a879ecc3bd20e0c265d445aad2ef529bfff63c9e91617f7266b1a4471c8151908ac0973936a05ec18806e8228b035b305fbaccf6410b554980e27f6a6
   languageName: node
   linkType: hard
 
@@ -3392,6 +3415,39 @@ __metadata:
   peerDependencies:
     react: ^16.8 || ^17.0
   checksum: fc9741d1abdeabd11cbb21ad5e0126e76fe03a2b71b7265bec847d509ad16a83b9e0cb5ef5fa3510274c610385319745a767765aec02a20aae050a1ee6359eff
+  languageName: node
+  linkType: hard
+
+"@radix-ui/react-popper@npm:0.1.4":
+  version: 0.1.4
+  resolution: "@radix-ui/react-popper@npm:0.1.4"
+  dependencies:
+    "@babel/runtime": ^7.13.10
+    "@radix-ui/popper": 0.1.0
+    "@radix-ui/react-arrow": 0.1.4
+    "@radix-ui/react-compose-refs": 0.1.0
+    "@radix-ui/react-context": 0.1.1
+    "@radix-ui/react-primitive": 0.1.4
+    "@radix-ui/react-use-rect": 0.1.1
+    "@radix-ui/react-use-size": 0.1.1
+    "@radix-ui/rect": 0.1.1
+  peerDependencies:
+    react: ^16.8 || ^17.0
+  checksum: 6b1393e8c3c583a3673d53368bc016e6dd8befdbe4d3d076c9c4465487c65fe370684fd5f0fff56df1414ae39793b77078df63e6081987a0b925565cddd6c529
+  languageName: node
+  linkType: hard
+
+"@radix-ui/react-portal@npm:0.1.4":
+  version: 0.1.4
+  resolution: "@radix-ui/react-portal@npm:0.1.4"
+  dependencies:
+    "@babel/runtime": ^7.13.10
+    "@radix-ui/react-primitive": 0.1.4
+    "@radix-ui/react-use-layout-effect": 0.1.0
+  peerDependencies:
+    react: ^16.8 || ^17.0
+    react-dom: ^16.8 || ^17.0
+  checksum: fb047d56c46711ed1d5146b21f9b77614556d578e55d8c3a39c5014e2883796091a3baeb3d3f8642209a0ff062bf6fd175a666f6f35dd154492ce06761824df3
   languageName: node
   linkType: hard
 
@@ -3503,6 +3559,32 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@radix-ui/react-tooltip@npm:^0.1.7":
+  version: 0.1.7
+  resolution: "@radix-ui/react-tooltip@npm:0.1.7"
+  dependencies:
+    "@babel/runtime": ^7.13.10
+    "@radix-ui/primitive": 0.1.0
+    "@radix-ui/react-compose-refs": 0.1.0
+    "@radix-ui/react-context": 0.1.1
+    "@radix-ui/react-id": 0.1.5
+    "@radix-ui/react-popper": 0.1.4
+    "@radix-ui/react-portal": 0.1.4
+    "@radix-ui/react-presence": 0.1.2
+    "@radix-ui/react-primitive": 0.1.4
+    "@radix-ui/react-slot": 0.1.2
+    "@radix-ui/react-use-controllable-state": 0.1.0
+    "@radix-ui/react-use-escape-keydown": 0.1.0
+    "@radix-ui/react-use-previous": 0.1.1
+    "@radix-ui/react-use-rect": 0.1.1
+    "@radix-ui/react-visually-hidden": 0.1.4
+  peerDependencies:
+    react: ^16.8 || ^17.0
+    react-dom: ^16.8 || ^17.0
+  checksum: 7cfd4dbc86ca6da92019628cf5b30544240b6d0ba81eb8f1422fa3d37559c4eaa8095bfee5a72fc3220ce1897f83e580b5eab5700260ba07d01386c43831ed43
+  languageName: node
+  linkType: hard
+
 "@radix-ui/react-use-callback-ref@npm:0.1.0":
   version: 0.1.0
   resolution: "@radix-ui/react-use-callback-ref@npm:0.1.0"
@@ -3523,6 +3605,18 @@ __metadata:
   peerDependencies:
     react: ^16.8 || ^17.0
   checksum: 2ddd05854af227b74e8b4a76d0d3c49e83b481b059fad68b769f76b46faa4db8eeb68e1ccf15cf6c4c54a89e6debc6440ee492ccac64570bdf12173e49b2fddc
+  languageName: node
+  linkType: hard
+
+"@radix-ui/react-use-escape-keydown@npm:0.1.0":
+  version: 0.1.0
+  resolution: "@radix-ui/react-use-escape-keydown@npm:0.1.0"
+  dependencies:
+    "@babel/runtime": ^7.13.10
+    "@radix-ui/react-use-callback-ref": 0.1.0
+  peerDependencies:
+    react: ^16.8 || ^17.0
+  checksum: b92769ecf49eac072c95898e230f9066385b6623d5af8d8f6a322a84bac4bcfab149eb3321fc363dad1d8b1b9706dcdde461a5423bc77f4afffba346b2f11ea3
   languageName: node
   linkType: hard
 
@@ -3548,6 +3642,18 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@radix-ui/react-use-rect@npm:0.1.1":
+  version: 0.1.1
+  resolution: "@radix-ui/react-use-rect@npm:0.1.1"
+  dependencies:
+    "@babel/runtime": ^7.13.10
+    "@radix-ui/rect": 0.1.1
+  peerDependencies:
+    react: ^16.8 || ^17.0
+  checksum: aacf81074482e71661a61bbc14e2bc4a227903e0461465a25dd4b36be0a2eebc6b326ad2f1cd90240d74f6e795cfd72fed0433d94b61f8c275fd75626405946a
+  languageName: node
+  linkType: hard
+
 "@radix-ui/react-use-size@npm:0.1.1":
   version: 0.1.1
   resolution: "@radix-ui/react-use-size@npm:0.1.1"
@@ -3559,7 +3665,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@radix-ui/react-visually-hidden@npm:^0.1.4":
+"@radix-ui/react-visually-hidden@npm:0.1.4, @radix-ui/react-visually-hidden@npm:^0.1.4":
   version: 0.1.4
   resolution: "@radix-ui/react-visually-hidden@npm:0.1.4"
   dependencies:
@@ -3568,6 +3674,15 @@ __metadata:
   peerDependencies:
     react: ^16.8 || ^17.0
   checksum: f551d27534c3c214fc2c085da6dabd8301c0e0d44268c0d6388ddcb194adfd3ef937366e390e931a03df3742eca83230f4718b807ad5565bbb75c03603e69c2c
+  languageName: node
+  linkType: hard
+
+"@radix-ui/rect@npm:0.1.1":
+  version: 0.1.1
+  resolution: "@radix-ui/rect@npm:0.1.1"
+  dependencies:
+    "@babel/runtime": ^7.13.10
+  checksum: 6f781fe3f6546930a69de7f3763593c1fbaffd17f03ec613c78946344769c157ebf4d8a5e4eb36e31c7ff51fbff6f7e9b27a3e9f1f411fc6a4528f439b2fba96
   languageName: node
   linkType: hard
 
@@ -8894,7 +9009,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"csstype@npm:^3.0.2":
+"csstype@npm:^3.0.2, csstype@npm:^3.0.4":
   version: 3.1.0
   resolution: "csstype@npm:3.1.0"
   checksum: 644e986cefab86525f0b674a06889cfdbb1f117e5b7d1ce0fc55b0423ecc58807a1ea42ecc75c4f18999d14fc42d1d255f84662a45003a52bb5840e977eb2ffd
