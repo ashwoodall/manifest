@@ -1,6 +1,6 @@
 import type { OverlayTriggerProps } from '@react-types/overlays';
 import * as React from 'react';
-import { CSS, cx, useTooltipStyles } from './styles';
+import { CSS, cx, useTooltipStyles } from './Tooltip.styles';
 import { mergeProps, mergeRefs } from '@react-aria/utils';
 import { useTooltip, useTooltipTrigger } from '@react-aria/tooltip';
 import { OverlayContainer } from '@react-aria/overlays';
