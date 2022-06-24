@@ -1,7 +1,7 @@
 import type { AriaSelectProps } from '@react-types/select';
 import * as LisBoxBase from '../ListBoxBase';
 import * as React from 'react';
-import { CSS, cx } from './styles';
+import { CSS, cx } from './Select.styles';
 import { HiddenSelect, useSelect } from '@react-aria/select';
 import { Item, Section } from '@react-stately/collections';
 import { mergeProps, useLayoutEffect, useResizeObserver } from '@react-aria/utils';
