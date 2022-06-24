@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { CSS, cx, useTagStyles } from './styles';
+import { CSS, cx, useTagStyles } from './Tag.styles';
 import { Icon } from '../Icon';
 import { IconButton } from '../Button';
 import { Typography } from '../Typography';
